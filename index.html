@@ -6,11 +6,8 @@
   </head>
   <body>
     <style>
-        .topo {background-color: #6EE28D;height: 662px;
-
-
-
-}
+        a {text-decoration:none;}
+        .topo {background-color: #6EE28D;height: 662px;}
 
 body {margin: 0;font-family: 'Open Sans', sans-serif;font-weight: 300;}
 
@@ -20,10 +17,17 @@ body {margin: 0;font-family: 'Open Sans', sans-serif;font-weight: 300;}
   justify-content: center;}
 
 .menu {
-    color: #038c5a;
     font-size: 16;position: fixed;width: 100%;font-weight: 400;
     z-index: 1;
         }
+.menu ul {
+    color: #038c5a;
+    transition: 0.1s;
+}
+.menu ul:hover {
+    font-weight: 500;
+    font-size: 16.5;
+}
 
 #img_topo {background-image: url(https://i.imgur.com/awGRfFi.png);
     background-repeat: no-repeat;
