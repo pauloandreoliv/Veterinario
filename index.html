@@ -1,15 +1,18 @@
 <html><head>
     <title>Faustino - Clínica veterinária e petshop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet">
   </head>
   <body>
     <style>
-      .topo {background-color: #6EE28D;height: 662px;
+        .topo {background-color: #6EE28D;height: 662px;
 
 
 
 }
 
-body {margin: 0;}
+body {margin: 0;font-family: 'Open Sans', sans-serif;font-weight: 300;}
 
 .container_l {
     
@@ -17,8 +20,8 @@ body {margin: 0;}
   justify-content: center;}
 
 .menu {
-    color: white;
-    font-size: 16;position: fixed;width: 100%;}
+    color: #038c5a;
+    font-size: 16;position: fixed;width: 100%;font-weight: 400;}
 
 #img_topo {background-image: url(https://i.imgur.com/awGRfFi.png);
     background-repeat: no-repeat;
@@ -33,15 +36,15 @@ body {margin: 0;}
     margin-left: 50px;background-size: cover;background-image: url(https://i.imgur.com/MLyQmV2.png);margin-top: 150px;}
 
 .itens_menu {display: flex;
-    }
+    z-index: 1;position: absolute;}
 
 .container {background: white;}
 
-.secao_1 {color: black;}
+.secao_1 {color: black;height: fit-content;margin-top: 150px;}
 
 .content_secao {float: left;}
 
-div#title_secao {color: #00B875;font-size: 30px;}
+div#title_secao {color: #00B875;font-size: 30px;padding-bottom: 50px;font-weight: 400;}
 
 div#subtitle_secao {color: #00B875;}
 
@@ -52,6 +55,13 @@ div#texto_secao {}
 .coluna_secao {display: inline-block;float: left;}
 
 div#topo {margin-top: 50vh;width: 100%;height: 100px;}
+
+.bg_menu {background: rgba( 255, 255, 255, 0 );
+
+backdrop-filter: blur( 20px );
+filter: blur( 20px );
+border-radius: 10px;
+height: 50px;width: 100%;}
     </style>
 <div class="container" style="
   ">
@@ -59,7 +69,8 @@ div#topo {margin-top: 50vh;width: 100%;height: 100px;}
     <div class="container_l">
 <div class="itens_menu" style="">
     <ul>Início</ul>
-<ul>Contato</ul><ul>Endereço</ul><ul>Agendamento</ul><ul>Sobre nós</ul><ul>Depoimentos</ul></div></div>
+<ul>Contato</ul><ul>Endereço</ul><ul>Agendamento</ul><ul>Sobre nós</ul><ul>Depoimentos</ul></div>
+<div class="bg_menu"></div></div>
 </div>
 <div class="topo">
     
@@ -73,6 +84,42 @@ div#topo {margin-top: 50vh;width: 100%;height: 100px;}
 </div>
 </div>
     <div class="container_l">
+<div class="secao_1" style="">
+        <div class="content_secao">
+        <div id="title_secao"><p>Contato</p></div>
+<div class="coluna_secao" style="margin-right: 200px;">
+
+<div class="objeto_secao"><div id="subtitle_secao">Endereço de e-mail</div>
+<div id="texto_secao">fulaninho@gmail.com</div></div><div class="objeto_secao"><div id="subtitle_secao">Telefone</div>
+<div id="texto_secao">(81)90000-0000</div></div>
+</div>
+<div class="coluna_secao">
+
+<div class="objeto_secao"><div id="subtitle_secao">Instagram</div>
+<div id="texto_secao">@fulaninhodetal</div></div><div class="objeto_secao"><div id="subtitle_secao">Facebook</div>
+<div id="texto_secao">fb.com/fulaninhodetal</div></div>
+</div>
+
+
+
+    </div>
+    </div></div><div class="container_l">
+<div class="secao_1" style="">
+        <div class="content_secao">
+        <div id="title_secao"><p>Endereço</p></div>
+<div class="coluna_secao" style="padding-right: 431.17px;">
+
+<div class="objeto_secao"><div id="subtitle_secao">Unidade Aurora</div>
+<div id="texto_secao" style="width: 377.17px;position: absolute;">Avenida Dr. Cláudio Gueiros Leite, 170, Janga, Paulista, Pernambuco
+Ao lado do Posto Petrobras e do Cerpe.</div></div>
+</div>
+
+
+
+
+    </div>
+    </div></div>
+<div class="container_l">
 <div class="secao_1" style="">
         <div class="content_secao">
         <div id="title_secao"><p>Contato</p></div>
