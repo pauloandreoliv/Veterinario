@@ -8,26 +8,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
-<body> 
-<script>
-        $(function () {
-            var header = $(".menu");
-            $(window).scroll(function () {
-                var scroll = $(window).scrollTop();
-  
-                if (scroll >= 155) {
-                    header.removeClass('menu')
-                            .addClass("classfinal");
-                } else {
-                    header.removeClass("menu_sc")
-                            .addClass('menu');
-                }
-            });
-        });
- </script>
-      
+<body>      
 <div class="container">
     
+
     <div class="menu">
     <div class="container_l">
 <div class="itens_menu">
@@ -41,6 +25,7 @@
 <div class="bg_menu"></div></div>
 </div>
     
+
 <div class="topo">    
 <div class="container_l">    
 <div id="logo"></div>
@@ -48,6 +33,7 @@
 </div>
 </div>
     
+
 <div class="container_l">
 <div class="secao_1" style="">
         <div class="content_secao">
@@ -110,6 +96,22 @@
 </div>
  
     
+<script>
+        $(function () {
+            var header = $(".menu");
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+  
+                if (scroll >= 665) {
+                    header.removeClass('menu')
+                            .addClass("classfinal");
+                } else {
+                    header.removeClass("menu_sc")
+                            .addClass('menu');
+                }
+            });
+        });
+ </script>
 </div>
 </body>
 </html>
