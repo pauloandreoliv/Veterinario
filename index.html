@@ -3,6 +3,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
     <style>
@@ -19,11 +20,11 @@ justify-content: center;}
     font-size: 16;position: fixed;width: 100%;font-weight: 400;
     z-index: 1;
         }
-.menu ul {
+.itens_menu ul {
     color: #038c5a;
     transition: 0.1s;
 }
-.menu ul:hover {
+.itens_menu ul:hover {
     font-weight: 500;
     font-size: 16.5;
 }
@@ -68,6 +69,23 @@ filter: blur( 20px );
 border-radius: 10px;
 height: 50px;width: 100%;}
     </style>
+      
+<script>
+        $(function () {
+            var header = $(".menu");
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+  
+                if (scroll >= 155) {
+                    header.removeClass('menu')
+                            .addClass("classfinal");
+                } else {
+                    header.removeClass("menu_sc")
+                            .addClass('menu');
+                }
+            });
+        });
+ </script>
       
 <div class="container">
     
