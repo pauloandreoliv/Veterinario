@@ -19,7 +19,7 @@ height: 662px;
 .topo::after {
 width: 0;
 height: 0;
-border-right: calc(105vw - 15px) solid transparent;
+border-right: calc(101vw - 15px) solid transparent;
 border-bottom: 221px solid #ffffff;
 margin-top: 443px;
 content: "";
