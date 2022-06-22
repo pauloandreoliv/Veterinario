@@ -1,3 +1,10 @@
+body {
+margin: 0;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+overflow-x: hidden;
+}
+
 a {
 text-decoration:none;
 color: inherit;
@@ -5,13 +12,18 @@ color: inherit;
 
 .topo {
 background-color: #6EE28D;
+background-image: linear-gradient(45deg, #00B875, #40D083);
 height: 662px;
 }
 
-body {
-margin: 0;
-font-family: 'Open Sans', sans-serif;
-font-weight: 300;
+.topo::after {
+width: 0;
+height: 0;
+border-right: calc(105vw - 15px) solid transparent;
+border-bottom: 221px solid #ffffff;
+margin-top: 443px;
+content: "";
+position: absolute;
 }
 
 .container_l {
@@ -19,16 +31,14 @@ display: flex;
 justify-content: center;}
 
 .menu {
-font-size: 16;
 position: fixed;
 width: 100%;
 font-weight: 400;
 z-index: 2;
 color: white;
-        }
+}
 
 .menu_sc {
-font-size: 16;
 position: fixed;
 width: 100%;
 font-weight: 400;
@@ -37,13 +47,13 @@ color: #038c5a;
 }
 
 .itens_menu ul {
-transition: 0.1s;
+transition: 0.08s;
 cursor: pointer;
 }
 
 .itens_menu ul:hover {
 font-weight: 500;
-font-size: 16.5;
+font-size: 16.5px;
 }
 
 #img_topo {
@@ -52,8 +62,8 @@ background-repeat: no-repeat;
 width: 500px;
 height: 512px;
 background-size: cover;
-margin-top: 151px;
-margin-left: 256px;
+margin-top: 144px;
+margin-left: 339px;
 position: absolute;
 z-index: 0;
 }
@@ -64,8 +74,8 @@ height: 270px;
 background-size: contain;
 background-image: url(https://i.imgur.com/zPT8gO8.png);
 background-repeat: no-repeat;
-margin-top: 150px;
-margin-left: -190px;
+margin-top: 110px;
+margin-left: -200px;
 transition: 0.5s;
 position: absolute;
 z-index: 1;
@@ -78,6 +88,7 @@ opacity: 0.5;
 display: flex;
 z-index: 1;
 position: absolute;
+font-size: 16px;
 }
 
 .container {
