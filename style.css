@@ -145,12 +145,13 @@ width: 100%;
 
 #botao_visualizar {
 font-size: 11px;
-font-weight: bolder;
-background: #00B875;
-color: white;
-width: fit-content;
-padding: 12px;
-border-radius: 20px;
+font-weight: normal;
+color: #00B875;
 margin-top: 20px;
 cursor: pointer;
+transition: 0.08s;
+}
+
+#botao_visualizar:hover {
+font-weight: bold;
 }
