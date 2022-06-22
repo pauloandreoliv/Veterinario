@@ -155,3 +155,29 @@ transition: 0.08s;
 #botao_visualizar:hover {
 font-weight: bold;
 }
+
+#box_opcao{
+width: 240px;
+height: 250px;
+overflow: hidden;
+border-radius: 10px;
+background-color: #0bbb7a;
+color: white;
+}
+
+#titulo_opcao{
+margin: 0px 25px 0px 25px;
+font-size: 20px;
+font-weight: bolder;
+word-break: break-word;
+}
+
+#texto_opcao{
+font-size: 16px;
+margin: 5px 25px 0px 25px;
+}
+
+#icone_opcao{
+font-size: 40px;
+padding: 25px;
+}
