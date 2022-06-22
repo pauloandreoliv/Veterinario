@@ -12,7 +12,7 @@ color: inherit;
 
 .topo {
 background-color: #6EE28D;
-background-image: linear-gradient(45deg, #00B875, #40D083);
+background-image: linear-gradient(45deg, #12c37c, #40D083);
 height: 662px;
 }
 
@@ -88,7 +88,7 @@ opacity: 0.5;
 display: flex;
 z-index: 1;
 position: absolute;
-font-size: 16px;
+font-size: 15.5px;
 }
 
 .container {
